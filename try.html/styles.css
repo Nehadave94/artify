@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.log {
+    width: 60px;
+    margin-top: -20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: 20%;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease-in-out;
+}
+
+.row .container:focus,
+.row .container:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.middle {
+    background-color: bisque;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 16px;
+    padding: 16px 32 px;
+}
+
+element.style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+
+.mt-next-section {
+    margin-top: 60px;
+}
+
+*,
+ :before,
+ :after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+*,
+ :before,
+ :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.bg-brand-bg {
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 248 244 / var(--tw-bg-opacity));
+}
